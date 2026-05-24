@@ -1,4 +1,4 @@
-#include<iostream.h>
+#include<iostream>
 using namespace std;
 int main(){
     int n;
@@ -7,7 +7,7 @@ int main(){
     for(int row=0;row<n;row++){
         // space
         for(int s=0;s<row;s++){
-            cout<<"  ";
+            cout<<" ";
         }
         // star
         int totalCol = n-row;

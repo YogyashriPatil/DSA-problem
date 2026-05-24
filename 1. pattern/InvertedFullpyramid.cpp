@@ -7,7 +7,7 @@ int main(){
     for(int row=0;row<n;row++){
         // space
         for(int s=0;s<row;s++){
-            cout<<"  ";
+            cout<<" ";
         }
         // star
         for (int st=0;st<n-row;st++){
